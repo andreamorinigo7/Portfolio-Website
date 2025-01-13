@@ -1,0 +1,55 @@
+.social-links a {
+  color: var(--accent-color);
+  background-color: rgba(60, 85, 51, 0.05);
+  padding: 20px;
+  border-radius: 100%;
+  margin: 0 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--accent-color);
+}
+.inquiry-box {
+  max-width: 1320px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.work-inquiry {
+  background-color: rgba(60, 85, 51, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.work-inquiry a {
+  margin-top: 15px;
+}
+.email-link {
+  transition: all 200ms ease-in-out;
+  color: var(--secondary-color);
+  text-decoration: none;
+
+  font-family: var(--secondary-font-family);
+}
+
+.email-link:hover {
+  color: var(--accent-color);
+}
+
+.social-links a {
+  color: var(--accent-color);
+  background-color: rgba(60, 85, 51, 0.05);
+  padding: 20px;
+  border-radius: 100%;
+  margin: 0 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--accent-color);
+}
