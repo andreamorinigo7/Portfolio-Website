@@ -6,15 +6,19 @@ import calculator from "./img/calculator.png";
 export default function Highlights() {
   return (
     <div className="highlights">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col d-none d-lg-block">
-            <img src={weather} alt="Weather-App" class="img-fluid rounded" />
+      <div className="container">
+        <div className="row mb-5">
+          <div className="col d-none d-lg-block">
+            <img
+              src={weather}
+              alt="Weather-App"
+              className="img-fluid rounded"
+            />
           </div>
-          <div class="col">
-            <div class="project-details m-5">
-              <h2 class="mb-5">Weather App</h2>
-              <p class="mb-5">
+          <div className="col">
+            <div className="project-details m-5">
+              <h2 className="mb-5">Weather App</h2>
+              <p className="mb-5">
                 My weather app is a responsive and user-friendly tool that
                 provides real-time weather updates based on the user's location
                 or search input. Built using HTML, CSS, and JavaScript, it
@@ -25,17 +29,17 @@ export default function Highlights() {
                 with APIs, implement dynamic data handling, and create sleek,
                 functional interfaces.
               </p>
-              <a href="/portfolio" class="btn btn-branding-outline">
+              <a href="/portfolio" className="btn btn-branding-outline">
                 Learn more
               </a>
             </div>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col">
-            <div class="project-details m-5">
-              <h2 class="mb-5">World Clock App</h2>
-              <p class="mb-5">
+        <div className="row mb-5">
+          <div className="col">
+            <div className="project-details m-5">
+              <h2 className="mb-5">World Clock App</h2>
+              <p className="mb-5">
                 My world clock app is a sleek, intuitive tool that allows users
                 to view the current time across multiple cities worldwide. Built
                 with HTML, CSS, and JavaScript, the app offers a clean and
@@ -45,31 +49,31 @@ export default function Highlights() {
                 responsive designs, and delivering an efficient user experience
                 for tracking time across different regions.
               </p>
-              <a href="/portfolio" class="btn btn-branding-outline">
+              <a href="/portfolio" className="btn btn-branding-outline">
                 Learn more
               </a>
             </div>
           </div>
-          <div class="col d-none d-lg-block">
+          <div className="col d-none d-lg-block">
             <img
               src={worldclock}
               alt="World-Clock-App"
-              class="img-fluid rounded"
+              className="img-fluid rounded"
             />
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col d-none d-lg-block">
+        <div className="row mb-5">
+          <div className="col d-none d-lg-block">
             <img
               src={calculator}
               alt="Calculator-App"
-              class="img-fluid rounded"
+              className="img-fluid rounded"
             />
           </div>
-          <div class="col">
-            <div class="project-details m-5">
-              <h2 class="mb-5">Calculator App</h2>
-              <p class="mb-5">
+          <div className="col">
+            <div className="project-details m-5">
+              <h2 className="mb-5">Calculator App</h2>
+              <p className="mb-5">
                 My calculator app is a fully functional, minimalist tool
                 designed for performing basic arithmetic operations with ease.
                 Developed using HTML, CSS, and JavaScript, the app provides a
@@ -79,7 +83,7 @@ export default function Highlights() {
                 proficiency in front-end development, handling user inputs, and
                 creating practical, user-friendly applications.
               </p>
-              <a href="/portfolio" class="btn btn-branding-outline">
+              <a href="/portfolio" className="btn btn-branding-outline">
                 Learn more
               </a>
             </div>

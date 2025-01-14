@@ -8,7 +8,7 @@
 
 .container-header {
   max-width: 100% !important;
-  padding: 0 60px;
+  padding: 0 60px !important;
 }
 
 nav {

@@ -4,15 +4,15 @@ import "./NavBar.css";
 export default function NavBar() {
   return (
     <div>
-      <div class="container container-header m-1">
-        <nav class="d-flex justify-content-between">
-          <div class="logo">
+      <div className="container container-header m-1">
+        <nav className="d-flex justify-content-between">
+          <div className="logo">
             <a href="/" title="Website logo">
-              A <span class="rotate">E</span> M A
+              A <span className="rotate">E</span> M A
             </a>
           </div>
           <ul>
-            <li class="active">
+            <li className="active">
               <a href="/">Home</a>
             </li>
             <li>

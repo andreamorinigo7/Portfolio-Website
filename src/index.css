@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --accent-color: #a9d49f !important;
+  --secondary-color: #272142 !important;
+  --primary-font-family: "Jost", sans-serif !important;
+  --secondary-font-family: "Poppins", sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  margin-top: 120px;
+  max-width: 100%;
+}
+
+.btn-branding {
+  background-color: var(--accent-color) !important;
+  color: white !important;
+  font-family: var(--secondary-font-family) !important;
+  padding: 10px 25px !important;
+  line-height: 25px !important;
+}
+
+.btn-branding:hover {
+  color: var(--accent-color) !important;
+  border: 1.5px solid var(--accent-color) !important;
+  background-color: transparent !important;
+}
+
+.btn-branding-outline:hover {
+  color: white !important;
+  background-color: var(--accent-color) !important;
+}
+
+.btn-branding-outline {
+  line-height: 25px !important;
+  padding: 10px 25px !important;
+  font-family: var(--secondary-font-family) !important;
+  color: var(--accent-color) !important;
+  border: 1px solid var(--accent-color) !important;
 }
