@@ -6,6 +6,11 @@
   font-size: 40px;
 }
 
+.container-header {
+  max-width: 100% !important;
+  padding: 0 60px;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -28,5 +33,11 @@ nav a {
 
 nav a:hover,
 nav li.active a {
+  color: var(--accent-color);
+}
+
+.rotate {
+  display: inline-block;
+  transform: rotate(-15deg) translateY(5px) translateX(-2px);
   color: var(--accent-color);
 }

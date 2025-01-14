@@ -50,12 +50,13 @@ export default function Footer() {
             <FontAwesomeIcon icon="fa-brands fa-github" />
           </a>
         </div>
-        <p class="pt-5 text-muted">
+        <p class="pt-5 text-muted text-center">
           This project was coded by Andrea Morinigo and it is
           <a
             href="https://github.com/andreamorinigo7/portfolio-project"
             class="text-muted text-decoration-none"
           >
+            {" "}
             open-sourced
           </a>
         </p>
