@@ -1,0 +1,30 @@
+.content {
+  margin: 30px !important;
+}
+
+.content-container {
+  padding: 160px 20px !important;
+}
+
+.content h1 {
+  font-size: 64px !important;
+  line-height: 80px !important;
+}
+
+.content-container h2 {
+  line-height: 1.4 !important;
+}
+
+.content h3 {
+  font-size: 24px !important;
+  font-family: var(--secondary-font-family) !important;
+}
+.content p {
+  font-family: var(--secondary-font-family) !important;
+  color: var(--secondary-color) !important;
+}
+
+.head-shot {
+  border-radius: 20%;
+  height: 450px !important;
+}
