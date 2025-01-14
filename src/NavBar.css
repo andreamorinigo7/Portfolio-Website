@@ -1,0 +1,32 @@
+.logo {
+  display: inline;
+  line-height: 42px;
+  font-weight: 900;
+  font-family: var(--secondary-font-family);
+  font-size: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+  line-height: 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--accent-color);
+}
