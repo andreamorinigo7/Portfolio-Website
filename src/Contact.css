@@ -1,0 +1,21 @@
+.social-links a {
+  color: var(--accent-color) !important;
+  background-color: rgba(60, 85, 51, 0.05) !important;
+  padding: 20px;
+  border-radius: 100%;
+  margin: 0 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--accent-color) !important;
+}
+.contact-description {
+  padding: 0 200px 40px;
+}
+
+.content p a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
