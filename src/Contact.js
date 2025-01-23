@@ -1,12 +1,14 @@
 import React from "react";
 import "./Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
   return (
-    <div class="content-container container text-center mt-0">
-      <div class="content">
-        <h1 class="mb-5">Contact Me</h1>
-        <p class="contact-description">
+    <div className="content-container container text-center mt-0">
+      <div className="content">
+        <h1 className="mb-5">Contact Me</h1>
+        <p className="contact-description">
           I'm always excited to hear about new projects and opportunities.
           Whether you have a question, need a quote, or just want to say hello,
           feel free to reach out!
@@ -42,14 +44,14 @@ export default function Contact() {
         <br />
         <br />
         <br />
-        <div class="social-links d-flex justify-content-center mt-5">
+        <div className="social-links d-flex justify-content-center mt-5">
           <a
             href="https://www.linkedin.com/in/andreamorinigo/"
             title="Linkedin button"
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
             href="https://www.github.com/andreamorinigo7/"
@@ -57,14 +59,14 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa-brands fa-github fa-2xl"></i>
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
-        <p class="pt-5 text-muted text-center">
+        <p className="pt-5 text-muted text-center">
           This project was coded by Andrea Morinigo and it is{" "}
           <a
             href="https://github.com/andreamorinigo7/portfolio-project"
-            class="text-muted text-decoration-none"
+            className="text-muted text-decoration-none"
           >
             open-sourced
           </a>
