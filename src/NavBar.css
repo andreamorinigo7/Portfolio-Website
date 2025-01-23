@@ -6,33 +6,42 @@
   font-size: 40px;
 }
 
+.logo a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 .container-header {
   max-width: 100% !important;
   padding: 0 60px !important;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: end;
 }
 
 nav {
   padding: 20px 0;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
+.link {
   display: inline;
-  margin-left: 15px;
+  margin-left: 20px;
   line-height: 42px;
-}
-
-nav a {
+  color: var(--primary-color);
   text-decoration: none;
-  color: var(--secondary-color);
 }
 
-nav a:hover,
-nav li.active a {
+.active-link {
+  color: var(--accent-color);
+  margin-left: 20px;
+  line-height: 42px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover {
   color: var(--accent-color);
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -11,20 +12,32 @@ export default function NavBar() {
               A <span className="rotate">E</span> M A
             </a>
           </div>
-          <ul>
-            <li className="active">
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
-            </li>
-            <li>
-              <a href="/portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
+          <div className="nav-links">
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active-link" : "link")}
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? "active-link" : "link")}
+            >
+              About
+            </NavLink>
+            <NavLink
+              to="/portfolio"
+              className={({ isActive }) => (isActive ? "active-link" : "link")}
+            >
+              Portfolio
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => (isActive ? "active-link" : "link")}
+            >
+              Contact
+            </NavLink>
+          </div>
         </nav>
       </div>
     </div>
