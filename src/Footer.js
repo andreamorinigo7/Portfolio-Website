@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -39,7 +40,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
             href="https://www.github.com/andreamorinigo7/"
@@ -47,7 +48,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon="fa-brands fa-github" />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
         <p class="pt-5 text-muted text-center">

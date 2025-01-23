@@ -47,6 +47,7 @@
   border-radius: 100%;
   margin: 0 20px;
   transition: all 200ms ease-in-out;
+  font-size: 2rem;
 }
 
 .social-links a:hover {
