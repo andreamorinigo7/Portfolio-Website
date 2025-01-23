@@ -1,20 +1,8 @@
-.portfolio {
-  text-align: center;
-  padding: 2rem;
-}
-
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
 .card {
-  position: relative;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
@@ -23,7 +11,7 @@
 
 .card-image {
   width: 100%;
-  height: 200px;
+  height: 60%;
   object-fit: cover;
 }
 
@@ -48,16 +36,19 @@
 }
 
 .card-button {
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
   border: none;
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
   font-size: 1rem;
   transition: background-color 0.3s;
+  font-family: var(--secondary-font-family);
+  font-weight: 600;
 }
 
 .card-button:hover {
-  background-color: var(--accent-color);
+  background-color: var(--secondary-color);
 }

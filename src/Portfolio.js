@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div className="content-container container work-content mt-0">
         <div className="content">
           <h1>Portfolio</h1>
-          <div className="row mt-5">
+          <div className="row mt-5 portfolio-row">
             {projects.map((project) => (
               <div key={project.id} className="col-lg-3 mb-4">
                 <div className="card position-relative">
@@ -20,7 +20,7 @@ export default function Portfolio() {
                   />
                   <div className="card-body">
                     <h5 className="card-title text-center">{project.title}</h5>
-                    <p className="card-text text-center text-muted">
+                    <p className="card-text text-center mb-5 text-muted">
                       {project.languages}
                     </p>
                   </div>
