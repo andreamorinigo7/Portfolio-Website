@@ -1,16 +1,18 @@
+import weather from "./img/weather.png";
+
 export const projects = [
   {
     id: 1,
     title: "Weather App",
     languages: "HTML, CSS, JavaScript, and API",
-    image: "../img/weather.png",
+    image: { weather },
     link: "https://weather-app-andi.netlify.app",
   },
   {
     id: 2,
     title: "World Clock App",
     languages: "HTML, CSS, JavaScript, and API",
-    image: "../img/world-clock.png",
+    image: "./img/world-clock.png",
     link: "https://world-clock-andihub.netlify.app",
   },
   {
